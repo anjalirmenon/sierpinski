@@ -1,7 +1,6 @@
 #sierpinski fractal using midpoints of screen
 
 import pygame
-import math
 black = (0,0,0)
 screen = pygame.display.set_mode((1000,1000))
 screen.fill(black)
