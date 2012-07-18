@@ -1,7 +1,6 @@
 # sierpinski using any coordinates of screen
 
 import pygame
-import math
 black = (0,0,0)
 screen = pygame.display.set_mode((1000,1000))
 screen.fill(black)
@@ -34,9 +33,6 @@ def main():
 	ht = 1000
 	pygame.init()
 	white = (255,255,255) 
-#	black = pygame.Color(0,0,0)
-#	screen = pygame.display.set_mode((wt,ht))
-#	screen.fill(black)
 	sierp(screen,white,(300,50),(0,350),(600,350),3)
 
 	pygame.display.update()
