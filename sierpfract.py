@@ -1,14 +1,10 @@
+# sierpinski using any coordinates of screen
+
 import pygame
 import math
 black = (0,0,0)
 screen = pygame.display.set_mode((1000,1000))
 screen.fill(black)
-#angle = 0
-#global angle
-#def centerscreen(wt=500,ht=500):
-#	x = (wt/2)
-#	y = (ht/2)
-#	return (x,y)
 
 def midpoint(x,y):
 	midx = (x[0] + y[0])/2.0
